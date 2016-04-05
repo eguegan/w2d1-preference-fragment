@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="General">
+
+        <EditTextPreference
+            android:title="ET Title"
+            android:summary="lorem ipsum..."
+            android:key="title"
+            android:defaultValue="Default"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Color">
+
+        <CheckBoxPreference
+            android:title="Dark Background"
+            android:summary="lorem ipsum..."
+            android:key="background"
+            android:defaultValue="false"/>
+
+    </PreferenceCategory>
+</PreferenceScreen>
